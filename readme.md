@@ -1,3 +1,23 @@
+<h1>Criando um Design System completo</h1>
+
+Usando o Figma para projetar os componentes
+
+<h2>Projeto no Figma</h2>
+<a href="https://www.figma.com/community/file/1163786306166583908">https://www.figma.com/community/file/1163786306166583908</a>
+
+No React utilizando Storybook para documentar e exibir os componentes em todas as suas variações.
+
+<h2>Endereço do storybook</h2>
+<a href="https://tiagomartinscc.github.io/ignite-lab-design-system/">https://tiagomartinscc.github.io/ignite-lab-design-system/</a>
+
+
+<h3>Comandos usados na instalação</h3>
+
+Criando o projeto utilizando o Vite
+```bash
+npm create vite@latest
+```
+
 Instalando o tailwindcss
 ```bash
 npm i -D tailwindcss postcss autoprefixer
@@ -18,12 +38,12 @@ rodando o story book
 npm run storybook
 ```
 
-Instalando o CLSX
+Instalando o CLSX (biblioteca para controle condicional do tailwindcss)
 ```bash
 npm install --save clsx
 ```
 
-Instalando o slot do radix-ui
+Instalando o slot do radix-ui (COmponentes nativos e altamente customizáveis)
 ```bash
 npm install @radix-ui/react-slot
 ```
@@ -41,8 +61,5 @@ Fazendo o deploy do storybook
 ```bash
 npm i @storybook/storybook-deployer --save-dev
 ```
-
-
-
 
 
